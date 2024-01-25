@@ -1,4 +1,4 @@
-Semantic Segmentation using U-Net
+#**Semantic Segmentation using U-Net**
 
 Semantic Segmentation is a critical computer vision task where the goal is to classify each pixel in an image into specific classes, providing a detailed understanding of the scene. U-Net,proposed by Ronneberger et al. in 2015, a convolutional neural network (CNN) architecture, has gained significant prominence, particularly in biomedical image segmentation. Renowned for its ability to capture intricate details while preserving spatial information, U-Net has found widespread use in various image segmentation applications. This repository delves into the Semantic Segmentation task using U-Net, aiming to achieve high accuracy measured by the mean Intersection over Union (mIoU) metric. 
 
