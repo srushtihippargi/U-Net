@@ -36,8 +36,13 @@ The training pipeline is orchestrated through a script that leverages the U-Net 
 
 # **Customization**
 Implementing image augmentation with random cropping and flipping.
+
 Adding more convolution layers to each level of the U-Net.
+
 Changing channel sizes within the U-Net.
+
 Adjusting learning rate, batch size, and number of epochs.
+
 Adding weights to the CrossEntropyLoss to handle class imbalance.
+
 Modifying the training code to save model weights based on the highest mIoU on the validation set.
