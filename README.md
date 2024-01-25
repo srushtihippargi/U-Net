@@ -21,8 +21,10 @@ Batch normalization is applied to normalize the input to each layer, reducing in
 **Architecture:**
 **U-Net Layers:**
 U-Net's architecture consists of contracting and expanding layers, each containing convolutional blocks. The contracting path performs feature extraction through convolution and pooling, while the expanding path reconstructs the spatial dimensions.
+
 **Skip Connections:**
 Skip connections, also known as residual connections, connect corresponding layers in the contracting and expanding paths. These connections facilitate the flow of high-resolution features, aiding in the recovery of spatial details.
+
 **Final Layer and Output:**
 The final layer of U-Net utilizes a convolutional operation to produce pixel-wise predictions. The output is often a multi-channel image, with each channel representing the likelihood of a pixel belonging to a specific class.
 
