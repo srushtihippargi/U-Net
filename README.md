@@ -37,14 +37,9 @@ The project begins with a setup phase, where the environment is configured and n
 The training pipeline is orchestrated through a script that leverages the U-Net architecture. The U-Net model, initially a basic version called UNetStudent, is trained on the training set. The training process involves iterations over the dataset, forward and backward passes, and optimization to minimize the CrossEntropyLoss. The mean IoU is used as a performance metric, and the weights of the model are saved after each epoch if an improvement is observed on the validation set.
 
 # **Customization**
-Implementing image augmentation with random cropping and flipping.
-
-Adding more convolution layers to each level of the U-Net.
-
-Changing channel sizes within the U-Net.
-
-Adjusting learning rate, batch size, and number of epochs.
-
-Adding weights to the CrossEntropyLoss to handle class imbalance.
-
-Modifying the training code to save model weights based on the highest mIoU on the validation set.
+Implementing image augmentation with random cropping and flipping.<br />
+Adding more convolution layers to each level of the U-Net.<br />
+Changing channel sizes within the U-Net.<br />
+Adjusting learning rate, batch size, and number of epochs.<br />
+Adding weights to the CrossEntropyLoss to handle class imbalance.<br />
+Modifying the training code to save model weights based on the highest mIoU on the validation set.<br />
